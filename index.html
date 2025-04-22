@@ -4,7 +4,64 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/global.css">
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
-  <body></body>
+  <body>
+      <header class="header">
+        <div class="menu">
+        <nav class="header_menu">
+          <ul class="header__links-list">
+            <li>главная</li>
+            <li><a class="header_links" href="#">посмотреть лоты</a> </li>
+            <li><a class="header_links" href="#">об аукционе</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__logo">
+        <a class="first_logo">
+          <img class="header__logo-image" src="./images/logo-black.svg" alt="черный логотип оно тебе надо">
+        </a>
+      </div>
+        <address class="address header__address">
+              <a href="tel:+9 999 555 5555">+9 999 555 5555</a><br>
+              <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+            <p>наб. Присенграхт 263-<br>265. Амстердам</p>
+        </address>
+      </header>
+      <main>
+       <section class="cover">
+        <div class="overlay">
+          <h1 class="cover_title">
+            <span class="aligned-text">Оно</span>
+            <span class="aligned-text_center">тебе</span>
+            <span class="aligned-text_right">надо</span>
+          </h1>
+        </div>
+          <div class="cover__description">
+          <p class="cover__description-text">аукцион вещей, в которые никто не верил</p>
+          <button class="bet-button">Сделать ставку</button> 
+        </div>
+        </h1>
+       </section>
+       <section class="lots">
+       <!-- <h2 class="lots__heading">Лоты</h2> -->
+        <ul class="lots__card-list-item"></ul>
+       </section>
+       <section class="about"></section>
+      <!-- <h4 class="about_title">Об аукционе</h4> -->
+       <div class="logo_about">
+       <!-- <img class="logo_about_pic" src="./images/logo-white.svg" alt="белый логотип оно тебе надо"> -->
+       </div>
+       <p class="text_about">
+       </p>
+       <p class="text_about">
+       </p>
+      </main>
+      <footer class="footer">
+
+      </footer>
+  </body>
 </html>
