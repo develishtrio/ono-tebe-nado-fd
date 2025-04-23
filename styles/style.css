@@ -2,7 +2,8 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 92px 50px 96px 52px;
+    font-size: 18px;
+    padding: 92px 50px 96px 50px;
 }
 
 .header_menu {
@@ -15,13 +16,14 @@
     display: block;
     justify-self: center;
     align-items: center;
-    width: 150px;
-    
+    width: 148px;
+
 }
 
 .header__logo-image {
     
     width: 100%;
+    
 }
 .header__links-list {
     display: flex;
@@ -36,17 +38,16 @@
     line-height: 100%;
 }
 .address {
-    display:block;
+    display: block;
     font-family: Raleway;
     font-weight: 400;
     font-size: 18px;
     font-style: normal;
     line-height: 24px;
     text-underline-offset: 4px;
-    padding-left: 189px;
     justify-self: end;
-    /* max-width: 300px; */
-    padding-right: 32px;
+    max-width: 240px; 
+    width: 100%;
     
     
 }
