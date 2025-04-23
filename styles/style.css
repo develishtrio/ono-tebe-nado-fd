@@ -4,6 +4,7 @@
     align-items: center;
     font-size: 18px;
     padding: 92px 50px 96px 50px;
+    
 }
 
 .header_menu {
@@ -60,9 +61,10 @@
     background-size: cover;
     width: 1100px;
     height: 757px;
+    top: -6px;
     padding: 165px 50px 50px 50px; 
     flex-direction: column;
-   
+    
 }
 
 .overlay {
@@ -161,58 +163,114 @@
 
 
 .lots {
-
+    padding: 180px 24px 0 24px;
 }
 
-
+.lots__card-list-item {
+    position: relative;
+   
+    
+}
 
 .lots__heading {
 
+    font-family: Raleway;
+    font-weight: none;
+    font-size: 40px;
+    line-height: 100%;
+    text-transform: uppercase;
+    padding-left: 40px;
+    padding-bottom: 27px;
 }
+
 
 
 .card {
 
+    height: 100%;
+    width: 334px;
+    min-height: 596px;
 
-}
+} 
 
 
 .lots__card-list {
 
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    background-size: cover;
+    gap: 25px;
+    flex-wrap: wrap;
+    list-style: none;
+    
 }
 
 
 .card_type_film {
 
+  background-image: url(../images/card-lot-01.jpg);
+  background-size: cover;
+  position: relative;
 }
 
 
+
 .card_type_book {
+   background-image: url(../images/card-lot-02.jpg); 
+   background-size: cover;
+   position: relative;
 
 }
 
 
 .card_type_picture {
-
+   background-image: url(../images/card-lot-03.jpg); 
+   background-size: cover;
+   position: relative;
 }
 
 .card_link {
-
+    height: 100%;
 }
 
-.card__title {
-
+ .card__title {
+    font-family: Raleway;
+    font-size: 22px;
+    line-height: 120%;
+    height: 100%;
+    width: 254px;
+    height: 82px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: white;
+    
+    
 }
 
 .card__text {
-
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-self: end;
+    font-family: Raleway;
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: 400;
+    color: white;
+    padding: 48px 40px 48px 40px;
+    
 }
 
 
 .more {
-
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    border-bottom: 1px solid black;
 }
 
 .lots__look-more-link {
-    
+    padding: 30px 102px 0px 40px;
 }
