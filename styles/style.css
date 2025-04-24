@@ -17,13 +17,14 @@
     display: block;
     justify-self: center;
     align-items: center;
-    width: 148px; 
+    min-width: 148px; 
 
 }
 
 .header__logo-image {
     
-    width: 148px;
+   width: 148px; 
+   
     
 }
 .header__links-list {
@@ -263,12 +264,19 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 100%;
-    border-bottom: 1px solid black;
+    margin-top: 34px;
+    margin-left: 40px;
+    padding: 0;
+   
+   
+    
     
 }
 
 .lots__look-more-link {
-    padding: 30px 102px 0px 40px;
+   text-decoration: none;
+   border-bottom: 1px solid black ;
+    
 }
 
 .about {
