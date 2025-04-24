@@ -169,6 +169,7 @@
 
 .lots__card-list-item {
     position: relative;
+    height: 100%;
    
     
 }
@@ -187,6 +188,7 @@
 
 
 .card {
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -195,18 +197,18 @@
     width: 334px;
     min-height: 596px;
     background-size: cover;
+    padding: 48px 40px;
+    gap: 25px;
+    flex-wrap: wrap;
+   
     
 } 
 
 
 .lots__card-list {
     display: flex;
-    justify-content: space-between; 
-    background-size: cover;
-    gap: 25px;
-    flex-wrap: wrap;
+    justify-content: space-between;
     list-style: none;
-    
 }
 
 
@@ -226,7 +228,7 @@
 
 
 .card_type_picture {
-   background-image: url(../images/card-lot-03.jpg); 
+   background-image: url(../images/card-lot-03.jpg);
   
 }
 
@@ -235,30 +237,24 @@
 }
 
  .card__title {
+    
     font-family: Raleway;
     font-size: 22px;
     line-height: 120%;
-    height: 100%;
-    width: 254px;
-    height: 82px;
-    padding: 48px 40px;
     text-transform: uppercase;
     text-decoration: underline;
     color: white;
-    
-    
-    
+    z-index: 1;
 }
 
 .card__text {
-
+    
     font-family: Raleway;
     font-size: 20px;
     line-height: 120%;
     font-weight: 400;
     color: white;
-    padding: 48px 40px;
-    
+    z-index: 1;
 }
 
 
@@ -268,6 +264,7 @@
     font-size: 20px;
     line-height: 100%;
     border-bottom: 1px solid black;
+    
 }
 
 .lots__look-more-link {
