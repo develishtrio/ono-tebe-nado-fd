@@ -81,7 +81,7 @@
 
 .cover_title {
     display: flex; 
-    flex-direction: column;
+    flex-direction: column; 
     text-transform: uppercase;
     color: white;
     font-family: Raleway;
@@ -124,18 +124,19 @@
 
 .cover__description {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
     justify-content: space-between;
+    align-items: center;
     inset: 656px 50px 50px 50px;
+    height: 51px;
     width: 1000px;
     border-width: 1px; 
-    z-index: 2;
-    align-items: end;
+    z-index: 2; 
+    margin-top: 107px; 
+    
 }
 
 .cover__description-text {
-    display: flex;
-    align-self: end;
     text-transform: uppercase;
     word-spacing: 18px;
     color: white;
@@ -186,19 +187,21 @@
 
 
 .card {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
     height: 100%;
     width: 334px;
     min-height: 596px;
-
+    background-size: cover;
+    
 } 
 
 
 .lots__card-list {
-
     display: flex;
-    flex-direction: row; 
-    justify-content: space-between;
+    justify-content: space-between; 
     background-size: cover;
     gap: 25px;
     flex-wrap: wrap;
@@ -210,24 +213,21 @@
 .card_type_film {
 
   background-image: url(../images/card-lot-01.jpg);
-  background-size: cover;
-  position: relative;
+ 
 }
 
 
 
 .card_type_book {
    background-image: url(../images/card-lot-02.jpg); 
-   background-size: cover;
-   position: relative;
+   
 
 }
 
 
 .card_type_picture {
    background-image: url(../images/card-lot-03.jpg); 
-   background-size: cover;
-   position: relative;
+  
 }
 
 .card_link {
@@ -241,24 +241,23 @@
     height: 100%;
     width: 254px;
     height: 82px;
+    padding: 48px 40px;
     text-transform: uppercase;
     text-decoration: underline;
     color: white;
     
     
+    
 }
 
 .card__text {
-    display: flex;
-    text-align: left;
-    flex-direction: column;
-    justify-self: end;
+
     font-family: Raleway;
     font-size: 20px;
     line-height: 120%;
     font-weight: 400;
     color: white;
-    padding: 48px 40px 48px 40px;
+    padding: 48px 40px;
     
 }
 
