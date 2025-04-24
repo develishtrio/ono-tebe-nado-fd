@@ -275,24 +275,67 @@
 }
 
 .about {
-
+    display: grid;
+    grid-template-columns: 334px 1fr;
+    padding: 120px 24px 103px 24px;
 }
+
+
+.about_column {
+  height: 595px;
+    
+}
+
 
 .about_title {
 
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    text-transform: uppercase;
+    width: 291px;
+    height: 47px;
+    margin-bottom: 100px;
+    margin-top: 136px;
 }
 
 
 .about_logo {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 240px;
+    height: 240px;
+    background-color: black;
+    border-radius: 50%;
 
 }
 
 
 .about__logo-image {
 
+    align-items: stretch; 
+    position: absolute;
+    width: 148px;
+    height: 114px;
+    
 
 }
 
 .about__text {
-    
+   
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 20px;
+    width: 688px;
+    height: 120px;
+}
+
+
+.first_text {
+
 }
