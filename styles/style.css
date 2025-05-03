@@ -10,15 +10,13 @@
   align-items: center;
 }
 
-.first_logo {
+.header_logo {
   display: block;
-  justify-self: center;
-  align-items: center;
-  min-width: 148px;
+  width: 148px;
 }
 
 .header__logo-image {
-  width: 148px;
+  display: block;
 }
 .header__links-list {
   display: flex;
@@ -47,7 +45,6 @@
 
 .cover {
   position: relative;
-  top: -6px;
   display: flex;
   flex-direction: column;
   width: 1100px;
@@ -56,6 +53,7 @@
   color: white;
   background-image: url(../images/cover.jpg);
   background-size: cover;
+  /* margin-bottom: 7px; */
 }
 
 .overlay {
@@ -141,15 +139,18 @@
 }
 
 .lots {
+  margin-top: 5px;
   padding: 180px 24px 0 24px;
 }
 
 .lots__card-list-item {
   position: relative;
+  width: 334px;
   height: 100%;
 }
 
 .lots__heading {
+  margin-bottom: 2px;
   padding-bottom: 27px;
   padding-left: 40px;
   font-weight: none;
@@ -165,7 +166,6 @@
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 25px;
-  width: 334px;
   height: 100%;
   min-height: 596px;
   padding: 48px 40px;
@@ -238,7 +238,7 @@
   width: 291px;
   height: 47px;
   margin-top: 140px;
-  margin-bottom: 98px;
+  margin-bottom: 96px;
   font-weight: 700;
   font-size: 40px;
   line-height: 100%;
@@ -253,7 +253,7 @@
   align-items: center;
   width: 240px;
   height: 240px;
-  margin-top: 36px;
+  margin-top: 34px;
   margin-left: 47px;
   border-radius: 50%;
   background-color: black;
@@ -280,7 +280,7 @@
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-top: 79px;
+  margin-top: 78px;
   padding: 0 50px 82px 50px;
 }
 
